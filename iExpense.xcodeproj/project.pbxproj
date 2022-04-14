@@ -13,6 +13,7 @@
 		EC085D5628073F1500484C55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC085D5528073F1500484C55 /* Preview Assets.xcassets */; };
 		EC872C742807B19400918249 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC872C732807B19400918249 /* ExpenseItem.swift */; };
 		EC872C762807B20D00918249 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC872C752807B20D00918249 /* Expenses.swift */; };
+		EC872C792807B82300918249 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC872C782807B82300918249 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EC085D5528073F1500484C55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC872C732807B19400918249 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		EC872C752807B20D00918249 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		EC872C782807B82300918249 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				EC085D4E28073F1300484C55 /* iExpenseApp.swift */,
-				EC085D5028073F1300484C55 /* ContentView.swift */,
+				EC872C7A2807BA0700918249 /* Views */,
 				EC872C772807B25000918249 /* Data */,
 				EC085D5228073F1500484C55 /* Assets.xcassets */,
 				EC085D5428073F1500484C55 /* Preview Content */,
@@ -79,6 +81,15 @@
 				EC872C752807B20D00918249 /* Expenses.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		EC872C7A2807BA0700918249 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC085D5028073F1300484C55 /* ContentView.swift */,
+				EC872C782807B82300918249 /* AddView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 			files = (
 				EC872C762807B20D00918249 /* Expenses.swift in Sources */,
 				EC085D5128073F1300484C55 /* ContentView.swift in Sources */,
+				EC872C792807B82300918249 /* AddView.swift in Sources */,
 				EC872C742807B19400918249 /* ExpenseItem.swift in Sources */,
 				EC085D4F28073F1300484C55 /* iExpenseApp.swift in Sources */,
 			);
